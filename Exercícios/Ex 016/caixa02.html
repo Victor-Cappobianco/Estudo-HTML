@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+        
+        header{
+            background-color: black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        nav{
+            background-color: rgb(10, 10, 87);
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 5px 5px 5px rgba(21, 21, 179, 0.61);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(155, 155, 155);
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        footer{
+            background-color: rgb(0, 0, 0); 
+            padding: 5px;
+                     
+        }
+
+        footer > p{
+            margin: 0px;
+            color: white;
+            text-align: center;
+            text-indent: none;
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(155, 155, 155);
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+        }
+
+        h2{
+            text-indent: 30px;
+            text-decoration: underline;
+            color: rgb(0, 0, 0);
+        }
+
+        p{
+            color: rgb(0, 0, 0);
+            text-align: justify;
+            text-indent: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Olá mundo</h1>
+        <nav>
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+            <a href="#">link4</a>
+            <a href="#">link5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assunto">
+
+        </section>
+        <section id="noticias">
+            <article style="border-radius: 10px 10px 0px 0px;">
+                <h2>Notícia importante</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, reprehenderit doloribus! Asperiores, accusamus optio illum obcaecati doloremque mollitia labore temporibus reiciendis animi quis vitae quibusdam dignissimos illo quam quia cum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt repellat iusto rerum ullam aut accusamus, voluptatum, esse iure laboriosam autem voluptas consequuntur repudiandae incidunt! Repellat ea aliquid voluptatibus eligendi ab. <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda distinctio explicabo, itaque debitis possimus laboriosam totam quia consectetur quos perspiciatis cum ratione nulla laborum hic ullam harum atque odio!</p>
+                <aside>
+                    <p>Artigo escrito por mim.</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Mais uma notícia importante</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, reprehenderit doloribus! Asperiores, accusamus optio illum obcaecati doloremque mollitia labore temporibus reiciendis animi quis vitae quibusdam dignissimos illo quam quia cum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt repellat iusto rerum ullam aut accusamus, voluptatum, esse iure laboriosam autem voluptas consequuntur repudiandae incidunt! Repellat ea aliquid voluptatibus eligendi ab. <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda distinctio explicabo, itaque debitis possimus laboriosam totam quia consectetur quos perspiciatis cum ratione nulla laborum hic ullam harum atque odio!</p>
+                <aside>
+                    <p>Fonte: eu mesmo.</p>
+                </aside>
+            </article>
+            <article style="border-radius: 0px 0px 10px 10px;">
+                <h2>Terceira notícia importante</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, reprehenderit doloribus! Asperiores, accusamus optio illum obcaecati doloremque mollitia labore temporibus reiciendis animi quis vitae quibusdam dignissimos illo quam quia cum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt repellat iusto rerum ullam aut accusamus, voluptatum, esse iure laboriosam autem voluptas consequuntur repudiandae incidunt! Repellat ea aliquid voluptatibus eligendi ab. <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda distinctio explicabo, itaque debitis possimus laboriosam totam quia consectetur quos perspiciatis cum ratione nulla laborum hic ullam harum atque odio!</p>
+                <aside>
+                    <p>Fonte: adivinha.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim.</p>
+    </footer>
+</body>
+</html>
