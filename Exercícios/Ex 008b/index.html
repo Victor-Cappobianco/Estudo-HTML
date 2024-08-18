@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / pré-formatado</h2>
+    <p>O código <code>document.getElementById('teste')</code> foi escrito na linguagem JavaScript. E utilizando a tag "code" no código, foi possível formatar a fonte para que cada letra ocupasse o mesmo espaço dentro da palavra, essa fonte chama-se "fonte monoespaçada", muito utilizada para se ler códigos de programação.</p>
+    <p>A seguir será inserido um código na linguagem Python, onde será usado outra tag além da "code" para apresentar de maneira mais organizada e com maior facilidade de interpretação.</p>
+    <p><pre>
+        <code>
+    num = int(input('Digite um número:'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR!')
+    else:
+        print(f'O número {num} é IMPAR!')
+    print('Fim do programa.')
+        </code>
+    </pre></p>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>.</p>
+    <p>Na citação foi utilizada a tag "q", que siginifica "quote - citação". Esta tag insere aspas no texto que você está citando, referenciando que pe uma citação.</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Sérgio Faraco, em seu livro, <q>Lágrimas na chuva. Uma aventura na URSS</q>:</p>
+    <blockquote cite="https://www.lpm.com.br/site/default.asp?Template=../livros/layout_produto.asp&CategoriaID=617051&ID=547311">Moscou, como escreveu aquele jornalista, não era nada daquilo que a gente imaginava. Era melhor, mas também podia ser pior.</blockquote>
+    <p>Para realizar essa citação, utilizei a tag "blockquote - citação em bloco". Utilizadno esta tag, a citação fica com o formato acima, além de possibilitar a inserção do link de origem da referência atravéz do parâmetro "cite=". Visualmente, a inserção do link não altera nada na página, porém o navegador verá que a citação em quetão não é plágio.</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <p>No parágrafo acima as siglas "<abbr title="HyperText Markup Language">HTML</abbr>" e "<abbr title="Cascading Style Sheets">CSS</abbr>" foram marcadas pela tag "abbr" (abreviação), essa tag indica ao sistema que as siglas são abreviações de algo. Quando o cursor do mause fica sobre as siglas, é mostrado o texto que as siglas representam.</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou utilizando a tag "bdo" que inverte o texto...... ????</bdo></p>
+</body>
+</html>
