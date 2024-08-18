@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+        Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto grande">
+    </picture>
+    <p>
+        Para realizar este processo de imagem dinâmica, primeiro foi aberta a tag "picture", e dentro da tag foi adicionada a maior imagem com a tag "img". Para realizar o processo de troca de imagens foi utilizada outra tag, a tag "source", onde você indica o máximo de pixels onde a imagem vai aparecer (deixando com 50 pixels a mais para compensar a barra de rolagem). No caso foram usadas 3 imagens, onde primeiro precisa ser o arquivo menor, depois o médio e por fim, a imagem padrão, que é a maior.
+    </p>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos inserir um áudio no HTML 5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Allégro - Emmit Fenn.mp3" type="audio/mpeg">
+        <source src="midia/Allégro - Emmit Fenn.ogg" type="audio/ogg">
+        <source src="midia/Allégro - Emmit Fenn.wav" type="audio/wav">
+        <p>Esse parágrafo irá aparecer caso nenhuma das três opções sejam compatíveis com o computador utilizado</p>
+    </audio>
+    <p>Para reproduzir o áudio foi usada a tag "audio". Dentro da tag "audio" foi usada a tag "source:src" para escolher o arquivo a ser reproduzido, e inserindo mais de um formato de arquivo para áudio, com a finalidade de maior compatibilidade com os dispositivos dos usuários. <br>
+    Dentro da tag "audio", foram inseridos os parâmetros: </p>
+    <ul>
+        <li>Preload="metadata" - dizendo para só carregar as informações do arquivo e só baixar o áudio no momento que for reproduzi-lo:</li>
+        <li>Autoplay - para tocar o áudio automáticamente (só funciona com o parâmetro "auto");</li>
+        <li>Controls - adiciona um display para reproduzir o áudio;</li>
+        <li>Loop - toca o áudio em loop.</li>
+    </ul>
+</body>
+</html>
