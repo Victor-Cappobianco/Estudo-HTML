@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p><q><a href="https://www.uel.br/pessoal/plnatti/Textos-escolhidos/Fernando%20Pessoa%20-%20Alvaro%20de%20Campos%20-%20Tabacaria%20Nao%20sou%20nada__.htm" target="_blank" rel="_external">A Tabacaria</a></q> é um poema escrito por um dos pseudonimos de Fernando Pessoa (Álvaro Campos)</p>
+    <p>Para criar o HiperLink demonstrado acima foi utilizada a tag "a" (âncora). Nesta tag você insere o link completo do site que deseja enviar o usuário quando clicado nele. <br>Logo após o link, ainda dentro da tag "a", foram adicionados 2 parâmetro, o primeiro foi o parâmetro "target="_blank"" e o segundo foi o parâmetro "rel="_external"", esses parâmetros somados fazem com que, ao clicar no link, o usuário seja direcionado ao site atravéz de uma nova aba do navegador, mantendo meu site aberto."</p>
+    <h1>Usando links internos</h1>
+    <p>Os links internos são links que redirecionam o usuário para uma outra página ou local dentro do nosso site.</p>
+    <p>Clique <a href="pag002.html" rel="next">aqui</a> para receber um "oi".</p>
+    <p>Para criar esse HiperLink foi utilizado a mesma tag "a", porém utilizando o parâmetro "rel="next"" para indicar que está indo para a próxima página. E na página 2, foi utilizado o parâmetro "rel="prev"" para indicar que está voltando para a página anterior.</p>
+    <p>O HiperLink da página 2, além do parâmetro "target="_blank"" foi utilizado o paramêtro "rel="nofollow"", que indica que o site em questão é um site que não é de sua confiança, e que você não quer vínculo com ele. </p>
+    <h2>Exemplo de link para páginas dentro de subpastas</h2>
+    <p>Você também pode acessar nossa página de <a href="noticias/pag003.html" rel="next">notícias</a>.</p>
+    <p>Para acessar uma página que está dentro de uma subpasta é necessário colocar o nome da pasta no HiperLink. Porém, para retornar a página anterior, é necessário digitar "../" para que o HTML saiba que você quer ir para o endereço da página original.</p>
+    <h1>Links para realizar download</h1>
+    <p><a href="Livro/Fernando Pessoa - Alvaro de Campos - Tabacaria.pdf" target="_blank">Baixar um livro em pdf</a></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum deleniti nobis explicabo dolor deserunt, ipsa fugiat laborum ad, accusantium unde odit sit nisi totam cumque debitis quos. Nam, perspiciatis.</p>
+</body>
+</html>
